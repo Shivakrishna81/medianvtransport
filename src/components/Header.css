@@ -1,0 +1,43 @@
+.header{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    background-color: white;
+    min-width: 87vw;
+}
+.topOptions{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    align-self: flex-end;
+    width: 35%;
+    margin-left: auto;
+}
+.optionCont{
+    display: flex;
+    align-items: center;
+    color: #65676a;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .Option{
+    color: #65676a;
+    font-size: 15px;
+    background-color: transparent;
+    border: none;
+    padding: 14px 10px 10px 10px;
+    min-width: 65px;
+  }
+  .options{
+    border: none;
+    font-size: 15px;
+    color: #65676a;
+  }
+  .selectedOption{
+    border: 0px solid #002357;
+    border-bottom-width: 3px;
+    padding: 14px 10px 10px 10px;
+    background-color: transparent;
+    color: #002357;
+    font-size: 15px;
+    font-weight: bold;
+    min-width: 65px;
+  }
